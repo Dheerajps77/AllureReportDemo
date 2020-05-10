@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="4" total="11" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5392" started-at="2020-05-09T14:14:41Z" finished-at="2020-05-09T14:14:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5392" started-at="2020-05-09T14:14:41Z" finished-at="2020-05-09T14:14:47Z">
+      <class name="com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest">
+        <test-method status="PASS" signature="openingBrowser()[pri:0, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="openingBrowser" is-config="true" duration-ms="15751" started-at="2020-05-09T19:44:26Z" finished-at="2020-05-09T19:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingBrowser -->
+        <test-method status="PASS" signature="verifyLOGOOnHomePage()[pri:1, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="verifyLOGOOnHomePage" duration-ms="84" started-at="2020-05-09T19:44:41Z" description="Verify LOGO on home page" finished-at="2020-05-09T19:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLOGOOnHomePage -->
+        <test-method status="PASS" signature="verifyLoginHomePage()[pri:2, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="verifyLoginHomePage" duration-ms="5263" started-at="2020-05-09T19:44:41Z" description="Verify Login Functionality" finished-at="2020-05-09T19:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginHomePage -->
+        <test-method status="PASS" signature="verifyRegisterationOnHomePage()[pri:3, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="verifyRegisterationOnHomePage" duration-ms="2" started-at="2020-05-09T19:44:47Z" description="Verify Registration functionality" finished-at="2020-05-09T19:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterationOnHomePage -->
+        <test-method status="PASS" signature="verifyContactListOnPage()[pri:4, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="verifyContactListOnPage" duration-ms="3" started-at="2020-05-09T19:44:47Z" description="Verify Contact list functionality" finished-at="2020-05-09T19:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactListOnPage -->
+        <test-method status="PASS" signature="verifyForgetPasswordOnPage()[pri:5, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="verifyForgetPasswordOnPage" duration-ms="1" started-at="2020-05-09T19:44:47Z" description="Verify ForgetPassword functionality" finished-at="2020-05-09T19:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgetPasswordOnPage -->
+        <test-method status="PASS" signature="verifyRememberPasswordOnPage()[pri:6, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="verifyRememberPasswordOnPage" duration-ms="3" started-at="2020-05-09T19:44:47Z" description="Verify Remember Password functionality" finished-at="2020-05-09T19:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRememberPasswordOnPage -->
+        <test-method status="FAIL" signature="verifyLogOutOnPage()[pri:7, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="verifyLogOutOnPage" duration-ms="2" started-at="2020-05-09T19:44:47Z" description="Verify LogOut functionality" finished-at="2020-05-09T19:44:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:288)
+	at org.testng.Assert.assertEquals(Assert.java:298)
+	at com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest.verifyLogOutOnPage(verifyNoCommerceLoginTest.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOutOnPage -->
+        <test-method status="FAIL" signature="verifyDownloadsTabOnPage()[pri:8, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="verifyDownloadsTabOnPage" duration-ms="1" started-at="2020-05-09T19:44:47Z" description="Verify Digital Downloads Tab functionality" finished-at="2020-05-09T19:44:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:288)
+	at org.testng.Assert.assertEquals(Assert.java:298)
+	at com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest.verifyDownloadsTabOnPage(verifyNoCommerceLoginTest.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDownloadsTabOnPage -->
+        <test-method status="FAIL" signature="verifyComputersTabOnPage()[pri:9, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="verifyComputersTabOnPage" duration-ms="1" started-at="2020-05-09T19:44:47Z" description="Verify Computers Tab functionality" finished-at="2020-05-09T19:44:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:288)
+	at org.testng.Assert.assertEquals(Assert.java:298)
+	at com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest.verifyComputersTabOnPage(verifyNoCommerceLoginTest.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyComputersTabOnPage -->
+        <test-method status="FAIL" signature="verifyElectronicTabOnPage()[pri:10, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="verifyElectronicTabOnPage" duration-ms="1" started-at="2020-05-09T19:44:47Z" description="Verify Electronic Tab functionality" finished-at="2020-05-09T19:44:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:288)
+	at org.testng.Assert.assertEquals(Assert.java:298)
+	at com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest.verifyElectronicTabOnPage(verifyNoCommerceLoginTest.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElectronicTabOnPage -->
+        <test-method status="SKIP" signature="verifyGiftOnPage()[pri:11, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="verifyGiftOnPage" duration-ms="2" started-at="2020-05-09T19:44:47Z" description="Verify Gift Tab functionality" finished-at="2020-05-09T19:44:47Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this one test. Hence not testing]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this one test. Hence not testing
+	at com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest.verifyGiftOnPage(verifyNoCommerceLoginTest.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGiftOnPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest@17a2457]" name="closeBrowser" is-config="true" duration-ms="745" started-at="2020-05-09T19:44:47Z" finished-at="2020-05-09T19:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.NoCommerce.Tests.verifyNoCommerceLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
